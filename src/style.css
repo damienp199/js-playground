@@ -1,0 +1,29 @@
+:root {
+    --bgcolor: red;
+    --bgcolor2: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.div1 {
+    height: 500px;
+    width: 500px;
+    margin: 0px;
+    padding: 5px;
+    background-color: var(--bgcolor);
+    border: 5px solid black;
+    font-size: 2vw;
+}
+
+.div2 {
+    height: 500px;
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bgcolor2);
+    border: 5px solid black;
+}
