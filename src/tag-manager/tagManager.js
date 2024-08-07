@@ -81,7 +81,7 @@ export function initializeTagManager() {
     // Misc
     tags.popup({ 
       excludePages: ['/', '/tags/', '/tag/*', '/articles/', '/a-propos/', '/academie/'],
-      method: 'exit', // Possible values: 'exit', 'scroll', 'time', 'disabled'
+      method: 'disabled', // Possible values: 'exit', 'scroll', 'time', 'disabled'
       timeOnSite: 1, // Value in seconds
       popupAfterDays: 0 // Number of days to wait before showing the popup again
     });
